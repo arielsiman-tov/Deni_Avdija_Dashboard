@@ -1677,7 +1677,7 @@ def update_performance_plot(selected_seasons_json, mode):
     # Update layout
     # Update layout
     fig.update_layout(
-        xaxis_title=dict(text="Game Number", font=dict(size=16, family="Segoe UI", color="#555555")),
+        xaxis_title=dict(text="Game Number in Regular Season", font=dict(size=16, family="Segoe UI", color="#555555")),
         yaxis_title=dict(text=title, font=dict(size=16, family="Segoe UI", color="#555555")),
         legend=dict(
             bgcolor="rgba(255,255,255,0.8)",
