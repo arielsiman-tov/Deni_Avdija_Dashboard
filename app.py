@@ -588,8 +588,14 @@ app.layout = dbc.Container([
             dcc.Graph(
                 id='scoring-chart',
                 config={'displayModeBar': False},
-                style={'marginBottom': '20px'}
+                style={'marginBottom': '5px'}
             ),
+            html.H6("Adjust Shot Range", style={
+            'textAlign': 'center',
+            'fontFamily': 'Segoe UI',
+            'marginBottom': '5px',  # Adjust as needed for spacing
+            'color': '#333'  # Choose a color that fits your design
+        }),
           dcc.RangeSlider(
               id='shot-chart-range-slider',
               min=min_shot_distance,
@@ -616,7 +622,7 @@ app.layout = dbc.Container([
                     dcc.Graph(
                         id='spider-plot',
                         config={'displayModeBar': False},
-                        style={'height': '528px'}  # Adjust this value as needed
+                        style={'height': '541px'}  # Adjust this value as needed
                     )
         ], style={'width': '48%', 'display': 'inline-block', 'verticalAlign': 'top', 'padding': '20px', 'border': '1px solid #e0e0e0', 'border-radius': '10px', 'background-color': '#F0F0F0','box-shadow': '0px 10px 10px 0px #C4CED4'})
             ]),
