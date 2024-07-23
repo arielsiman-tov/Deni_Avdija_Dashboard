@@ -1322,10 +1322,10 @@ def update_graph(selected_seasons_json, shot_result, slider_range):
 
             ],
             legend=dict(
-                    x=0.86,
-                    y=0.97,
-                    xanchor='right',
-                    yanchor='top',
+                    x=0.5,
+                    y=0.85,
+                    xanchor='center',
+                    yanchor='bottom',
                     bgcolor='rgba(255, 255, 255, 0.7)',
                     bordercolor='rgba(0, 0, 0, 0.5)',
                     borderwidth=1
