@@ -1,6 +1,6 @@
 # Deni_Avdija_Dashboard
-![image](https://github.com/user-attachments/assets/7cb09874-8e08-4577-b2cd-80e67101836c)
 
+https://github.com/user-attachments/assets/8fbf047d-8fa1-4781-a155-c1183c7df089
 
 Our project focuses on analyzing the evolving "game-changing trends" of Israeli basketball player Deni Avdija during his NBA career over the last four seasons (2020-21 to 2023-24). To provide a comprehensive analysis, we developed a dynamic dashboard that addresses the following key questions:
 
